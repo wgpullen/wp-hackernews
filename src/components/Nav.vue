@@ -48,7 +48,6 @@ export default {
   },
   methods: {
     rolloutOverride: () => {
-      console.log("HII")
       Rox.showOverrides()
     }
   }
