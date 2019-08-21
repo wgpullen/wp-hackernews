@@ -18,6 +18,12 @@ In the future I may add [vuex](https://vuex.vuejs.org/) so it doesn't query the 
 Ideally you would use server-side rendering like [this example](https://github.com/vuejs/vue-hackernews-2.0) does (in fact, that app is all around better).
 But to make testing certain tools easier, being strictly client-side rendered is preferable.
 
+
+## Deployment requirements
+
+You need to set the `VUE_APP_ROLLOUT_KEY` environment variable to your Rollout App API key.
+
+
 ## Project setup
 ```
 yarn install
