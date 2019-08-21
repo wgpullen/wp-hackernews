@@ -4,6 +4,9 @@
       <b-navbar-item href="/">
         <strong>HN</strong>
       </b-navbar-item>
+      <b-navbar-item v-if="isDev">
+        <span @click="rolloutOverride">DEV</span>
+      </b-navbar-item>
     </template>
     <template slot="start">
       <b-navbar-item href="/">
@@ -35,3 +38,19 @@
   margin-bottom: 15px
 }
 </style>
+<script>
+import Rox from 'rox-browser'
+export default {
+  data () {
+    return {
+      isDev: process.env.NODE_ENV === 'development'
+    }
+  },
+  methods: {
+    rolloutOverride: () => {
+      console.log("HII")
+      Rox.showOverrides()
+    }
+  }
+}
+</script>
