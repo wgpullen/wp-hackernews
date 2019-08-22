@@ -1,5 +1,5 @@
 <template>
-  <b-navbar :type="loggedIn ? [headerColor] : ['is-dark']" id="nav">
+  <b-navbar :type="loggedIn ? headerColor : 'is-dark'" id="nav">
     <template slot="brand">
       <b-navbar-item href="/">
         <strong>HN</strong>
