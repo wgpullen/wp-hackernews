@@ -21,6 +21,11 @@ export default new Router({
       path: '/show',
       name: 'show',
       component: () => import('./views/Show.vue')
+    },
+    {
+      path: '/login',
+      name: 'login',
+      component: () => import('./views/Login.vue')
     }
   ]
 })
