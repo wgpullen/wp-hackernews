@@ -8401,10 +8401,10 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rox-browser@^4.7.1:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.7.1.tgz#0b5410958e883591856f568f396bd98c86c30721"
-  integrity sha512-/fy+SCiSXkF9Sr1ao+iNXyqkCPD5am+FYJiZm5d3e9tLhxEfxiMgyLzuGG7PqX9hxh/89ZzB05iTLiuFuiLoaw==
+rox-browser@^4.8.6:
+  version "4.8.6"
+  resolved "https://registry.yarnpkg.com/rox-browser/-/rox-browser-4.8.6.tgz#bf97a72018780340bfb760ab4c8db82f5e73ea9b"
+  integrity sha512-QZF+ZkEzUgG+CYwmJCcCY/flwgum9j6fM40HxIga9964C3BlzFDm35QsoJIYbWReNJvMJ0i2kUgoGu7WjNiN3A==
 
 rsvp@^3.3.3:
   version "3.6.2"
