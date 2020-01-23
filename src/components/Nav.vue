@@ -15,10 +15,10 @@
       <b-navbar-item href="/">
         Hot
       </b-navbar-item>
-      <b-navbar-item href="/ask">
+      <b-navbar-item v-if="ask" href="/ask">
         Ask
       </b-navbar-item>
-      <b-navbar-item href="/show">
+      <b-navbar-item v-if="show" href="/show">
         Show
       </b-navbar-item>
     </template>
@@ -52,6 +52,8 @@ export default {
     return {
       isDev: process.env.NODE_ENV === 'development',
       headerColor: Flags.headerColor.getValue(),
+      ask: Flags.ask.isEnabled(),
+      show: Flags.show.isEnabled(),
       isBeta: betaAccess()
     }
   },
