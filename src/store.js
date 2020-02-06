@@ -37,6 +37,7 @@ export default new Vuex.Store({
         localStorage.setItem('loggedIn', 'true')
         commit('loginSuccess', matchedUser)
         router.push('/')
+        window.location.reload(false)
       } else {
         commit('loginFailure')
       }
@@ -46,6 +47,7 @@ export default new Vuex.Store({
       localStorage.removeItem('loggedIn')
       commit('logout')
       router.push('/')
+      window.location.reload(false)
     }
   }
 })
