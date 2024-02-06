@@ -60,6 +60,7 @@ export default {
   methods: {
     rolloutOverride: () => {
       Rox.showOverrides()
+      console.log(Rox.dynamicApi.isEnabled('default.score', false))
     },
     ...mapActions([
       'logout'
