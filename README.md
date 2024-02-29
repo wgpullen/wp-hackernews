@@ -21,7 +21,7 @@ But to make testing certain tools easier, being strictly client-side rendered is
 
 ## Deployment requirements
 
-You need to set the `VUE_APP_ROLLOUT_KEY` environment variable to your Rollout App API key.
+You need to set the `VUE_APP_ROLLOUT_KEY` environment variable to your CloudBees SDK key.
 
 
 ## Project setup
