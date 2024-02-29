@@ -45,5 +45,5 @@ Rox.setCustomBooleanProperty('isBetaUser', betaAccess())
 Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
-Rox.register('migration', Flags)
-Rox.setup('INSERT KEY HERE', options)
+Rox.register('elFlags', Flags)
+Rox.setup('99f3b028-d321-4cf6-4e18-abf722f15b5f', options)
