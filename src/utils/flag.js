@@ -16,7 +16,7 @@ export const impressionHandler = (reporting) => {
   }
 }
 
-const API_HOST = `https://api-staging.saas-dev.beescloud.com`
+const API_HOST = 'https://api.cloudbees.io'
 const options = {
   configurationFetchedHandler: configurationFetchedHandler,
   impressionHandler: impressionHandler,
@@ -46,4 +46,4 @@ Rox.setCustomBooleanProperty('isLoggedIn', isLoggedIn())
 Rox.setCustomStringProperty('company', getCompany())
 
 Rox.register('elFlags', Flags)
-Rox.setup('99f3b028-d321-4cf6-4e18-abf722f15b5f', options)
+Rox.setup('c3de89d1-d9fd-43f0-6e39-fd31c3dda3e3', options)
