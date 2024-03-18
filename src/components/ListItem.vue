@@ -2,7 +2,7 @@
   <article class="media box">
     <div class="media-left score-box" v-if="show_score">
       <v-alert type="error">
-        ERROR!
+        <!--ERROR!-->
       </v-alert>
       <p>
         <span class="score">{{ score }}</span>
