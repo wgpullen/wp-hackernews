@@ -1,7 +1,7 @@
 <template>
   <article class="media box">
     <div class="media-left score-box" v-if="show_score">
-      <!–– <v-alert type="error">
+      <!––<v-alert type="error">
         ERROR!
       </v-alert> ––>
       <p>
