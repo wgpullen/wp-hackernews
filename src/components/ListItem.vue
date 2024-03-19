@@ -1,6 +1,7 @@
 <template>
   <article class="media box">
     <div class="media-left score-box" v-if="show_score">
+      <!-- This is the section where Elliott embeds an ERROR statement -->
       <v-alert type="error">
         ERROR!
       </v-alert>
@@ -33,6 +34,7 @@
   }
 </style>
 <script>
+<!-- This is the section where Elliott begins to import flags -->
 import { Flags } from '../utils/flag'
 
 export default {
@@ -46,6 +48,7 @@ export default {
   },
   data () {
     return {
+      <!-- This is the section where Elliott enables flags -->
       show_score: Flags.score.isEnabled()
     }
   }
