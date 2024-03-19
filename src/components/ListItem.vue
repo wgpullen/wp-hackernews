@@ -34,7 +34,6 @@
   }
 </style>
 <script>
-<!-- This is the section where Elliott begins add flags -->
 import { Flags } from '../utils/flag'
 
 export default {
@@ -48,7 +47,6 @@ export default {
   },
   data () {
     return {
-      <!-- This is the section where Elliott enables flags -->
       show_score: Flags.score.isEnabled()
     }
   }
