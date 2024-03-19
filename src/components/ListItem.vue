@@ -34,7 +34,7 @@
   }
 </style>
 <script>
-<!-- This is the section where Elliott begins to import flags -->
+<!-- This is the section where Elliott begins add flags -->
 import { Flags } from '../utils/flag'
 
 export default {
