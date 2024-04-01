@@ -1,10 +1,10 @@
 <template>
   <article class="media box">
     <div class="media-left score-box" v-if="show_score">
-      <!-- This is the section where Elliott embeds an ERROR statement -->
+      <!-- This is the section where Elliott embeds an ERROR statement 
       <v-alert type="error">
         ERROR!
-      </v-alert> 
+      </v-alert> -->
       <p>
         <span class="score">{{ score }}</span>
       </p>
